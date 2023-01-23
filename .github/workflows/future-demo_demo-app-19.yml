@@ -22,7 +22,6 @@ jobs:
           java-version: '17'
 
       - name: Build with Maven
-        working-directory: ./home/runner/work/demo-repo
         run: mvn clean install
 
       - name: Upload artifact for deployment job
